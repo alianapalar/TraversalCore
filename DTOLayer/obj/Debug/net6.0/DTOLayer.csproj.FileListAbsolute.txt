@@ -1,0 +1,15 @@
+C:\Users\Pc\TraversalCore\TraversalCore\DTOLayer\bin\Debug\net6.0\DTOLayer.deps.json
+C:\Users\Pc\TraversalCore\TraversalCore\DTOLayer\bin\Debug\net6.0\DTOLayer.dll
+C:\Users\Pc\TraversalCore\TraversalCore\DTOLayer\bin\Debug\net6.0\DTOLayer.pdb
+C:\Users\Pc\TraversalCore\TraversalCore\DTOLayer\obj\Debug\net6.0\DTOLayer.csproj.AssemblyReference.cache
+C:\Users\Pc\TraversalCore\TraversalCore\DTOLayer\obj\Debug\net6.0\DTOLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pc\TraversalCore\TraversalCore\DTOLayer\obj\Debug\net6.0\DTOLayer.AssemblyInfoInputs.cache
+C:\Users\Pc\TraversalCore\TraversalCore\DTOLayer\obj\Debug\net6.0\DTOLayer.AssemblyInfo.cs
+C:\Users\Pc\TraversalCore\TraversalCore\DTOLayer\obj\Debug\net6.0\DTOLayer.csproj.CoreCompileInputs.cache
+C:\Users\Pc\TraversalCore\TraversalCore\DTOLayer\obj\Debug\net6.0\DTOLayer.dll
+C:\Users\Pc\TraversalCore\TraversalCore\DTOLayer\obj\Debug\net6.0\refint\DTOLayer.dll
+C:\Users\Pc\TraversalCore\TraversalCore\DTOLayer\obj\Debug\net6.0\DTOLayer.pdb
+C:\Users\Pc\TraversalCore\TraversalCore\DTOLayer\obj\Debug\net6.0\ref\DTOLayer.dll
+C:\Users\Pc\TraversalCore\TraversalCore\DTOLayer\bin\Debug\net6.0\EntityLayer.dll
+C:\Users\Pc\TraversalCore\TraversalCore\DTOLayer\bin\Debug\net6.0\EntityLayer.pdb
+C:\Users\Pc\TraversalCore\TraversalCore\DTOLayer\obj\Debug\net6.0\DTOLayer.csproj.CopyComplete

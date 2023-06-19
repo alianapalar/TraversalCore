@@ -1,0 +1,39 @@
+﻿@using DTOLayer.DTOs.ReservationDTOs;
+@model List<ReservationListDTO>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int count = 0;
+}
+
+<h1>Rezervasyon Listesi</h1>
+
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Rezervasyonu Yapan Kişi</th>
+        <th>Rota Bilgisi</th>
+        <th>Kişi Sayısı</th>
+        <th>Onay Durumu</th>
+        <th>Onayla</th>
+        <th>Geçmişe Çek</th>
+        <th>Detaylar</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        count++;
+        <tr>
+            <td>@count</td>
+            <td>@item.AppUser.Name</td>
+            <td>@item.Destination.City</td>
+            <td>@item.PersonCount</td>
+            <td>@item.Status</td>
+            <td><a href="/Admin/Reservation/ChangeReservationStatus/@item.ReservationID" class="btn btn-outline-danger">Onayla</a></td>
+            <td><a href="/Admin/Reservation/ChangePastReservation/@item.ReservationID" class="btn btn-outline-success">Geçmişe Çek</a></td>
+            <td><a href="#" class="btn btn-outline-dark">Detaylar</a></td>
+        </tr>
+    }
+</table>
+
+

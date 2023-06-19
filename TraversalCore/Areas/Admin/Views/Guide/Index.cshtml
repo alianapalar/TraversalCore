@@ -1,0 +1,37 @@
+﻿@model List<Guide>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int count = 0;
+}
+
+<h1>Rehber Listesi</h1>
+
+<table class="table table-bordered">
+
+    <tr>
+        <th>#</th>
+        <th>Görsel</th>
+        <th>Ad Soyad</th>
+        <th>Açıklama</th>
+        <th>Durum Güncelle</th>
+        <th>Durum</th>
+        <th>Düzenle</th>
+        <th>Sil</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        count++;
+        <tr>
+            <td>@count</td>
+            <td><img src="@item.Image" height="50" width="50" class="rounded-circle"> </td>
+            <td>@item.Name</td>
+            <td>@item.Description</td>
+            <td><a href="/Admin/Guide/ChangeGuideStat/@item.GuideID" class="btn btn-outline-primary">Aktif veya Pasif Yap</a></td>
+            <td>@item.Status</td>
+            <td><a href="/Admin/Guide/EditGuide/@item.GuideID" class="btn btn-outline-success">Düzenle</a></td>
+            <td><a href="/Admin/Guide/DeleteGuide/@item.GuideID" class="btn btn-outline-danger">Sil</a></td>
+        </tr>
+    }
+</table>
+<a href="/Admin/Guide/AddGuide" class="btn btn-outline-primary">Yeni Rehber Girişi</a>
